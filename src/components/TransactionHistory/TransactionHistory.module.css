@@ -1,0 +1,24 @@
+.transactionHistory {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+}
+th,
+td {
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  border: 1px solid #676565;
+}
+
+th {
+  background-color: rgb(47, 121, 182);
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+tr {
+  background-color: #fff;
+  text-transform: uppercase;
+}
