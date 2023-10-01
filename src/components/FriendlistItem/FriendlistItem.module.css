@@ -1,0 +1,31 @@
+.item {
+  margin-bottom: 10px;
+  display: flex;
+  width: 500px;
+  height: 80px;
+  box-shadow: 5px 5px 12px 0px rgba(102, 99, 99, 0.75);
+}
+.offline {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 30px 10px;
+}
+.online {
+  composes: offline;
+  background-color: green;
+}
+.avatar {
+  background-color: #d1cdcd;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 2px 0px;
+}
+.name {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+}
